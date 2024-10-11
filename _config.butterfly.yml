@@ -576,6 +576,7 @@ valine:
   # Use Valine visitor count as the page view count
   visitor: true
   option:
+    emojiCDN: 'https://valine-emoji.bili33.top/'
 
 # Waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
