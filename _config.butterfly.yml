@@ -571,7 +571,7 @@ valine:
   appKey: xYN559izuvUQTnqEH05M0rA7
   avatar: wavatar
   # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  serverURLs: liangbm3.top
+  serverURLs: 
   bg:
   # Use Valine visitor count as the page view count
   visitor: true
