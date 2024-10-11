@@ -18,7 +18,7 @@ nav:
 
 menu:
   家: / || fas fa-home
-  文档: /docs/ || fas fa-book
+  # 文档: /docs/ || fas fa-book
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -59,7 +59,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/lbm.jpg
+  img: /source/img/lbm.jpg
   effect: false
 
 # Disable all banner images
@@ -69,7 +69,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /img/star.jpg
+index_img: /source/img/star.jpg
 
 # The banner image of archive page
 archive_img:
@@ -289,7 +289,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/liangbm3
   card_announcement:
     enable: true
     content: This is my Blog
@@ -362,9 +362,9 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -425,7 +425,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -567,14 +567,14 @@ gitalk:
 # Valine
 # https://valine.js.org
 valine:
-  appId:
-  appKey:
-  avatar: monsterid
+  appId: MyLdL6oZuQLpumdDMaCM1MYi-gzGzoHsz
+  appKey: xYN559izuvUQTnqEH05M0rA7
+  avatar: wavatar
   # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   serverURLs:
   bg:
   # Use Valine visitor count as the page view count
-  visitor: false
+  visitor: true
   option:
 
 # Waline - A simple comment system with backend support fork from Valine
@@ -680,7 +680,7 @@ crisp:
 # --------------------------------------
 
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 368af7d743b74a81a3c14a4e4b2ff59f
 
 # https://analytics.google.com/analytics/web/
 google_analytics:
