@@ -95,7 +95,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/background.png
 
 cover:
   # Disable the cover or not
@@ -167,7 +167,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-  - 我与我周旋就，宁作我
+  - 我与我周旋就，宁作我。
+  - 浮云吹作雪，世味煮成茶。
+  - 山不见我，我自去见山。
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
