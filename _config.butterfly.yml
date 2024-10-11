@@ -20,7 +20,7 @@ menu:
   家: / || fas fa-home
   # 文档: /docs/ || fas fa-book
   友情链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  关于: /2024/10/10/我的第一篇博客/ || fas fa-heart
 
   # List||fas fa-list:
   # Music: /music/ || fas fa-music
@@ -91,7 +91,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: /img/footer.png
 
 # Website Background
 # Can set it to color or image url
@@ -103,7 +103,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover:
+  default_cover: /img/link_top.png
     # - xxx.jpg
 
 # Replace Broken Images
@@ -164,7 +164,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: false
+  source: 3
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
   - 我与我周旋就，宁作我。
@@ -353,7 +353,7 @@ aside:
     # Time difference between publish date and now
     # Formal: Month/Day/Year Time or Year/Month/Day Time
     # Leave it empty if you don't enable this feature
-    runtime_date:
+    runtime_date: 2024/10/10
 
 # --------------------------------------
 # Bottom right button
