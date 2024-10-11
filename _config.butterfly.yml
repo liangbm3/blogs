@@ -59,7 +59,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /source/img/lbm.jpg
+  img: /img/lbm.jpg
   effect: false
 
 # Disable all banner images
@@ -69,7 +69,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /source/img/star.jpg
+index_img: /img/star.jpg
 
 # The banner image of archive page
 archive_img:
@@ -571,7 +571,7 @@ valine:
   appKey: xYN559izuvUQTnqEH05M0rA7
   avatar: wavatar
   # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  serverURLs:
+  serverURLs: liangbm3.top
   bg:
   # Use Valine visitor count as the page view count
   visitor: true
