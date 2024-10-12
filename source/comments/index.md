@@ -1,6 +1,6 @@
 ---
 title: 留言板
-cover: /img/link_top.png
+top_img: /img/link_top.png
 ---
 
 
