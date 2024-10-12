@@ -52,6 +52,9 @@ code_blocks:
 social:
   fab fa-github: https://github.com/liangbm3 || Github || '#24292e'
   fas fa-envelope: mailto:3095088766@qq.com || Email || '#4a7dbe'
+  fa-brands fa-weixin: /img/wechat.jpg || Wechat || '#7bb32e'
+  fa-brands fa-qq: /img/qq.jpg || QQ || '#1ca1f2'
+  fa-brands fa-bilibili: https://space.bilibili.com/520050404 || Bilibili || '#00a1d6'
 
 # --------------------------------------
 # Image Settings
