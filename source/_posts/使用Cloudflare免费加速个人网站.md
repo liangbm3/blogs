@@ -1,18 +1,17 @@
 ---
 title: 使用Cloudflare免费加速个人网站
 date: 2024-10-12 16:20:59
-tags: 博客搭建
 description: 使用Cloudflare的CDN服务，通过其免费的free计划，来加速博客网站的访问速度。
 top_img: /img/使用Cloudflare免费加速个人网站/top_img.jpg
 cover: /img/使用Cloudflare免费加速个人网站/top_img.jpg
 ---
 
-## 前言
+## 1. 前言
 在搭建博客的过程中，发现网站访问的速度有些慢，便参考了网上的许多教程和博客，并成功使用了Cloudflare 来加速我的博客网站，因此特地写了一篇blog来总结一下。
 
-## 前置知识
+## 2. 前置知识
 
-### Cloudflare
+### 2.1 Cloudflare
 
 Cloudflare（Cloudflare, Inc.）是一家总部位于旧金山的美国跨国科技企业，以向客户提供基于反向代理的内容分发网络（Content Delivery Network, CDN）及分布式域名解析服务（Distributed Domain Name Server）为主要业务。Cloudflare 已经成为互联网上运行的最大网络之一。
 
@@ -26,7 +25,7 @@ Cloudflare的优势有：
 + 免费和收费计划：可以是获得CDN、DDoS保护和安全等优势的经济实惠方式。
 + 更重要的是有中文的控制面板🫣
 
-### CDN是什么
+### 2.2 CDN是什么
 
 我们主要是使用Cloudflare的CDN服务进行加速，那么CDN到底是什么呢？
 
@@ -34,9 +33,9 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 <img src="/img/使用Cloudflare免费加速个人网站/image-20241012170948597.png" alt="image-20241012170948597" style="zoom: 33%;" />
 
-## 操作流程
+## 3. 操作流程
 
-### 配置服务
+### 3.1 配置服务
 
 首先你需要一个私有域名，没有可先去注册：
 + [阿里云](https://wanwang.aliyun.com/domain/)
@@ -57,13 +56,13 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 <img src="/img/使用Cloudflare免费加速个人网站/image-20241012171133590.png" alt="image-20241012171133590" style="zoom: 50%;" />
 
-### 按照下方的快速入门指南进行配置
+### 3.2 按照下方的快速入门指南进行配置
 
 <img src="/img/使用Cloudflare免费加速个人网站/image-20241012172732085.png" alt="image-20241012172732085" style="zoom:50%;" />
 
 一律保存即可。
 
-### 更改DNS服务器
+### 3.3 更改DNS服务器
 
 先在Cloudflare中找到给我们分配的DNS服务器，如图
 
@@ -93,7 +92,7 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 到此我们已经可以使用Cloudflare进行CDN加速了，我们还可以进行其他配置。
 
-### 其他配置
+### 3.4 其他配置
 
 1.   将SSL/TLS设置成完全（严格），增加网页安全性。
 
@@ -103,6 +102,6 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
      <img src="/img/使用Cloudflare免费加速个人网站/image-20241012173855897.png" alt="image-20241012173653312" style="zoom:50%;" />
 
-## 参考资料
+## 4. 参考资料
 
 [Cloudflare设置流程 免费CDN加速你的网站【2024年最新】](https://for-tiger.com/cloudflare-setup-tutorial-for-cdn-acceleration)
