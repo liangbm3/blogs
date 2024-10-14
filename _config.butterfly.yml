@@ -580,7 +580,7 @@ valine:
   serverURLs: 
   bg:
   # Use Valine visitor count as the page view count
-  visitor: false
+  visitor: true
   option:
     emojiCDN: 'https://valine-emoji.bili33.top/'
 
