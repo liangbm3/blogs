@@ -57,7 +57,7 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 <img src="/img/使用Cloudflare免费加速个人网站/image-20241012171133590.png" alt="image-20241012171133590" style="zoom: 50%;" />
 
-### 3.2 按照下方的快速入门指南进行配置
+### 按照下方的快速入门指南进行配置
 
 <img src="/img/使用Cloudflare免费加速个人网站/image-20241012172732085.png" alt="image-20241012172732085" style="zoom:50%;" />
 
