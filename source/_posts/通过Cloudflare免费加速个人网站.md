@@ -34,7 +34,7 @@ Cloudflare的优势有：
 
 CDN (Content Delivery Network或Content Distribution Network)是一个互连服务器网络，可加快数据密集型应用程序的网页加载速度。CDN 可以表示内容分发网络或内容分配网络。当用户访问某个网站时，来自该网站服务器的数据必须通过互联网传输到用户的计算机。如果用户距离该服务器较远，则加载大文件（例如视频或网站图像）将需要很长时间。相反，如果网站内容存储在距离用户较近的 CDN 服务器上，就可以更快到达他们的计算机。
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012170948597.png" alt="image-20241012170948597" style="zoom: 33%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012170948597.png" alt="image-20241012170948597" style="zoom: 33%;" />
 
 ## 3. 操作流程
 
@@ -47,21 +47,21 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 然后登录[Cloudflare](https://dash.cloudflare.com/sign-up)，没有账号先注册账号。进入的面板如图：
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012171108680.png" alt="image-20241012171108680" style="zoom: 50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012171108680.png" alt="image-20241012171108680" style="zoom: 50%;" />
 
 我们输入我们的私有域名，点击继续，然后选择免费的计划
 
 >   注意：不要填带有www.域名
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012171120482.png" alt="image-20241012171120482" style="zoom: 50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012171120482.png" alt="image-20241012171120482" style="zoom: 50%;" />
 
 点击继续，我们可以看到如下界面
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012171133590.png" alt="image-20241012171133590" style="zoom: 50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012171133590.png" alt="image-20241012171133590" style="zoom: 50%;" />
 
 ### 3.2 按照下方的快速入门指南进行配置
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012172732085.png" alt="image-20241012172732085" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012172732085.png" alt="image-20241012172732085" style="zoom:50%;" />
 
 一律保存即可。
 
@@ -69,29 +69,29 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 先在Cloudflare中找到给我们分配的DNS服务器，如图
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012171651888.png" alt="image-20241012171651888" style="zoom: 50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012171651888.png" alt="image-20241012171651888" style="zoom: 50%;" />
 
 接下来需要到我们的服务器商那里更换我们域名的DNS服务器，以阿里云为例，进入[域名控制台 (aliyun.com)](https://dc.console.aliyun.com/#/domain-list/all)，找到我们需要加速的域名
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012171932162.png" alt="image-20241012171932162" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012171932162.png" alt="image-20241012171932162" style="zoom:50%;" />
 
 点击管理
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012172054672.png" alt="image-20241012173653312" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012172054672.png" alt="image-20241012173653312" style="zoom:50%;" />
 
 在DNS修改中，输入刚才复制的域名
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012172444890.png" alt="image-20241012172444890" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012172444890.png" alt="image-20241012172444890" style="zoom:50%;" />
 
 等待一段时间后，会收到Cloudflare发来的邮件
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012172903024.png" alt="image-20241012172903024" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012172903024.png" alt="image-20241012172903024" style="zoom:50%;" />
 
 >   这里每个人的等待时间不一样，请耐心等待
 
 成功后，界面变成如图所示
 
-<img src="/img/使用Cloudflare免费加速个人网站/image-20241012173124328.png" alt="image-20241012173124328" style="zoom:50%;" />
+<img src="/img/通过Cloudflare免费加速个人网站/image-20241012173124328.png" alt="image-20241012173124328" style="zoom:50%;" />
 
 到此我们已经可以使用Cloudflare进行CDN加速了，我们还可以进行其他配置。
 
@@ -99,11 +99,11 @@ CDN (Content Delivery Network或Content Distribution Network)是一个互连服�
 
 1.   将SSL/TLS设置成完全（严格），增加网页安全性。
 
-     <img src="/img/使用Cloudflare免费加速个人网站/image-20241012173653312.png" alt="image-20241012173653312" style="zoom:50%;" />
+     <img src="/img/通过Cloudflare免费加速个人网站/image-20241012173653312.png" alt="image-20241012173653312" style="zoom:50%;" />
 
 2.   启用 Always Online 后，即使你源服务器一时瘫痪，也会显示 Cloudflare 创建好的网站副本。这样就可以始终向访问者提供信息。
 
-     <img src="/img/使用Cloudflare免费加速个人网站/image-20241012173855897.png" alt="image-20241012173653312" style="zoom:50%;" />
+     <img src="/img/通过Cloudflare免费加速个人网站/image-20241012173855897.png" alt="image-20241012173653312" style="zoom:50%;" />
 
 ## 4. 参考资料
 
