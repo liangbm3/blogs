@@ -1,9 +1,12 @@
 ---
-title: 使用Cloudflare免费加速个人网站
+title: 通过Cloudflare免费加速个人网站
 date: 2024-10-12 16:20:59
-description: 使用Cloudflare的CDN服务，通过其免费的free计划，来加速博客网站的访问速度。
-top_img: /img/使用Cloudflare免费加速个人网站/top_img.jpg
-cover: /img/使用Cloudflare免费加速个人网站/top_img.jpg
+tags:
+     - 教程
+     - 博客搭建
+description: 通过Cloudflare的CDN服务，通过其免费的free计划，来加速博客网站的访问速度。
+top_img: /img/通过Cloudflare免费加速个人网站/top_img.jpg
+cover: /img/通过Cloudflare免费加速个人网站/top_img.jpg
 ---
 
 ## 1. 前言
