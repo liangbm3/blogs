@@ -103,3 +103,9 @@ tmux switch -t <session-name>
 tmux rename-session -t 0 <new-name>
 ```
 
+# 3. 参考资料
+
++   [Tmux 使用教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
++   [Tmux教程 （一文就够）-CSDN博客](https://blog.csdn.net/CSSDCC/article/details/121231906)
++   [如何关闭终端后保持ssh远程连接运行程序不终止（tmux基本操作）_退出终端会停止远程服务器工作吗-CSDN博客](https://blog.csdn.net/hesongzefairy/article/details/112590054)
+
