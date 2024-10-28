@@ -15,43 +15,43 @@ cover: /img/WSL的使用/cover.png
 
 -   **启动默认 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl
     ```
 
 -   **启动特定的 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl -d <发行版名称>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl -d Ubuntu-20.04
     ```
 
 -   **查看所有已安装的 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl --list --verbose
     ```
 
     或者简写：
 
-    ```bash
+    ```powershell
     wsl -l -v
     ```
 
 -   **设置默认 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl --set-default <发行版名称>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --set-default Ubuntu-20.04
     ```
 
@@ -59,25 +59,25 @@ cover: /img/WSL的使用/cover.png
 
 -   **检查 WSL 发行版版本**（1 或 2）：
 
-    ```bash
+    ```powershell
     wsl --list --verbose
     ```
 
 -   **设置指定 WSL 发行版为 WSL 2**：
 
-    ```bash
+    ```powershell
     wsl --set-version <发行版名称> 2
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --set-version Ubuntu-20.04 2
     ```
 
 -   **设置新的默认 WSL 版本**（将新安装的发行版默认设置为 WSL 2）：
 
-    ```bash
+    ```powershell
     wsl --set-default-version 2
     ```
 
@@ -85,19 +85,19 @@ cover: /img/WSL的使用/cover.png
 
 -   **停止所有运行中的 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl --shutdown
     ```
 
 -   **终止特定 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl --terminate <发行版名称>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --terminate Ubuntu-20.04
     ```
 
@@ -107,13 +107,13 @@ cover: /img/WSL的使用/cover.png
 
     -   在 WSL 中，可以通过 `/mnt/c` 等路径访问 Windows 的 C 盘文件。
 
-    ```bash
+    ```powershell
     cd /mnt/<windows路径>
     ```
 
     例如:
 
-    ```bash
+    ```powershell
     cd /mnt/c/Users/lbm/
     ```
 
@@ -127,7 +127,7 @@ cover: /img/WSL的使用/cover.png
 
     例如：
 
-    ```bash
+    ```powershell
     \\wsl$\Ubuntu-20.04
     ```
 
@@ -139,13 +139,13 @@ cover: /img/WSL的使用/cover.png
 
 -   **卸载 WSL 发行版**：
 
-    ```bash
+    ```powershell
     wsl --unregister <发行版名称>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --unregister Ubuntu-20.04
     ```
 
@@ -153,25 +153,25 @@ cover: /img/WSL的使用/cover.png
 
 -   **导出 WSL 发行版**（备份）：
 
-    ```bash
+    ```powershell
     wsl --export <发行版名称> <文件路径>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --export Ubuntu-20.04 D:\backup\ubuntu_backup.tar
     ```
 
 -   **导入 WSL 发行版**（恢复）：
 
-    ```bash
+    ```powershell
     wsl --import <自定义名称> <安装路径> <备份文件路径>
     ```
 
     例如：
 
-    ```bash
+    ```powershell
     wsl --import MyUbuntu D:\WSL\Ubuntu D:\backup\ubuntu_backup.tar
     ```
 
@@ -179,13 +179,13 @@ cover: /img/WSL的使用/cover.png
 
 -   **查看 WSL 帮助**：
 
-    ```bash
+    ```powershell
     wsl --help
     ```
 
 -   **检查 WSL 状态和配置**：
 
-    ```bash
+    ```powershell
     wsl --status
     ```
 
@@ -265,7 +265,7 @@ Windows似乎不支持直接更改WSL的默认安装路径，但支持安装发�
 
 5.   设置默认登陆用户为安装时用户名
 
-     ```bash
+     ```powershell
      ubuntu2004 config --default-user Username
      ```
 
