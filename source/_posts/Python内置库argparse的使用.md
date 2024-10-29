@@ -88,19 +88,19 @@ parser = argparse.ArgumentParser(description='Descriptive information')
 
 `type` 属性用于指定参数的预期数据类型，帮助解析和验证命令行输入的数据格式。如果输入的数据类型不符合 `type` 指定的格式，`argparse` 会自动抛出错误。`type` 属性支持多种常见的数据类型，还可以自定义数据转换函数。常见的数据类型如下
 
-1.   **`str`**：默认类型，将输入解析为字符串类型，适用于大多数文本、路径等输入
+1.   `str`：默认类型，将输入解析为字符串类型，适用于大多数文本、路径等输入
 
      ```python
      parser.add_argument("--name", type=str, help="Your name")
      ```
 
-2.   **`int`**：将输入解析为整数，适合计数、编号等整数类型的参数；如果输入非整数，会自动报错
+2.  `int`：将输入解析为整数，适合计数、编号等整数类型的参数；如果输入非整数，会自动报错
 
      ```python
      parser.add_argument("--age", type=int, help="Your age")
      ```
 
-3.   **`float`**：将输入解析为浮点数，适合需要精确到小数的参数，比如学习率、权重等
+3.   `float`：将输入解析为浮点数，适合需要精确到小数的参数，比如学习率、权重等
 
      ```python
      parser.add_argument("--learning-rate", type=float, help="Learning rate for training")
