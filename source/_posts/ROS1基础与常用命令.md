@@ -34,7 +34,7 @@ cover: /img/ROS1基础与常用命令/cover.png
      curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
      ```
 
-3.    安装
+3.   安装
 
      ```bash
      sudo apt update #更新软件包索引
@@ -1112,9 +1112,9 @@ catkin_create_pkg add_service std_msgs rospy roscpp message_generation
 
 运行效果如图：
 
-![/img/ROS1基础与常用命令/image-20241102151924299](image-20241102151924299.png)
+<img src="\img\ROS1基础与常用命令\image-20241102151924299.png" alt="image-20241102151924299" style="zoom: 80%;" />
 
-![/img/ROS1基础与常用命令/image-20241102151943338](image-20241102151943338.png)
+<img src="\img\ROS1基础与常用命令\image-20241102151943338.png" alt="image-20241102151943338" style="zoom:80%;" />
 
 ## 5.5 参数操作
 
@@ -1235,7 +1235,7 @@ roscore
 
 运行结果：
 
-![/img/ROS1基础与常用命令/image-20241102154254201](image-20241102154254201.png)
+![/img/ROS1基础与常用命令/image-20241102154254201.png](/img/ROS1基础与常用命令/image-20241102154254201.png)
 
 # 6. launch文件的使用
 
