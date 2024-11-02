@@ -3,7 +3,7 @@ title: 华硕笔记本Linux系统的充电阈值控制
 date: 2024-10-30 04:33:48
 description: 解决华硕笔记本安装双系统后，在Linux中的充电阈值控制问题
 tags: 
-    - linux
+    - Linux
     - 日常总结
 top_img: /img/华硕笔记本Linux系统的充电阈值控制/cover.png
 cover: /img/华硕笔记本Linux系统的充电阈值控制/cover.png

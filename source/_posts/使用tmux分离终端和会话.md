@@ -3,7 +3,7 @@ title: 使用tmux分离终端和会话
 date: 2024-10-28 21:57:59
 description: 我们可以使用tmux（terminal multiplexer）（终端复用器）来使终端和会话分离（detach），这样关闭终端时运行的程序不会停止。
 tags: 
-    - linux
+    - Linux
     - 日常总结
 top_img: /img/使用tmux分离终端和会话/cover.png
 cover: /img/使用tmux分离终端和会话/cover.png
