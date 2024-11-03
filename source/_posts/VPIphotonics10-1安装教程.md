@@ -38,7 +38,7 @@ Windows是一个多用户系统，在这些用户中会有一个超级管理员�
 4.   在Administrator的属性界面，将`账户已禁用`的勾去掉
 5.   重启，在锁屏界面那里点击头像可以切换 Administrator 账户登录
 
-> 注意：如果是Windows家庭版的话，无法安装该方法配置`本地用户和组`来开启 Administrator 账户，可以以管理员身份运行CMD，然后输入命令`net user administrator /active:yes`即可
+> 注意：如果是Windows家庭版的话，无法按照该方法配置`本地用户和组`来开启 Administrator 账户，可以以管理员身份运行CMD，然后输入命令`net user administrator /active:yes`即可
 
 ## 3.2 安装虚拟网卡
 
