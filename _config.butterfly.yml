@@ -41,7 +41,7 @@ code_blocks:
 
   # Toolbar
   copy: true
-  language: true
+  language: false
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
   shrink: false
   fullpage: false
@@ -203,7 +203,7 @@ toc:
   post: true
   page: false
   number: false
-  expand: false
+  expand: true
   # Only for post
   style_simple: false
   scroll_percent: true
@@ -290,7 +290,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: Bug producer and Environmental Engineer
     button:
       enable: true
       icon: fab fa-github

@@ -3,7 +3,7 @@ title: Python内置库argparse的使用
 date: 2024-10-29 15:41:27
 description: argparse 是 Python 标准库中用于解析命令行参数的模块，提供了一种简单、直观的方式来定义命令行接口，让程序可以直接从命令行获取输入并据此执行不同的操作，在许多深度学习的工程代码中经常用到。
 tags: 
-    - python
+    - Python
     - 日常总结
 top_img: /img/Python内置库argparse的使用/cover.png
 cover: /img/Python内置库argparse的使用/cover.png
