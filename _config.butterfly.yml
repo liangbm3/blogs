@@ -18,7 +18,7 @@ nav:
 
 menu:
   家: / || fas fa-home
-  文档: https://liangbm3.gitbook.io/note/ || fas fa-book
+  # 文档: https://liangbm3.gitbook.io/note/ || fas fa-book
   友情链接: /link/ || fas fa-link
   留言板: /comments/ || fas fa-comment
   关于: /2024/10/10/我的第一篇博客/ || fas fa-heart
