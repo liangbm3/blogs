@@ -1,14 +1,14 @@
 ---
 title: VPIphotonics10.1安装教程
 date: 2024-10-30 15:40:03
-description: 在数字信号处理课程中，需要用到VPIphotonics工具，由于没有正版，需要进行破解安装。这里记录的是在Windows下安装VPIphotonics的完整过程。
+description: 这里记录的是在Windows下安装VPIphotonics的完整过程。
 tags: 
     - 环境配置
 top_img: /img/VPIphotonics10.1安装教程/cover.jpg
 cover: /img/VPIphotonics10.1安装教程/cover.jpg
 ---
 
-在数字信号处理课程中，需要用到VPIphotonics工具，由于没有正版，需要进行破解安装。这里记录的是在Windows下安装VPIphotonics的完整过程。
+这里记录的是在Windows下安装VPIphotonics的完整过程。
 
 # 1. VPIphotonics介绍
 
