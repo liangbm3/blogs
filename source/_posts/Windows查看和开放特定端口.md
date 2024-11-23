@@ -4,6 +4,7 @@ date: 2024-10-29 12:53:38
 description: 这里记录的是之前比赛时遇到的一个bug，大概场景是在同一个局域网下，在本机（Windows）中开启了一个类似于主机服务，但是其他电脑根据IP和端口无法访问对应的网页，最后发现原因是本机防火墙没有开放对应的端口。
 tags: 
     - bug记录
+    - Windows
 top_img: /img/Windows查看和开放特定端口/cover.png
 cover: /img/Windows查看和开放特定端口/cover.png
 ---
