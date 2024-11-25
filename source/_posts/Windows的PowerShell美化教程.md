@@ -101,7 +101,13 @@ oh-my-posh init pwsh  --config "Senv:POSH_THEMES_PATH/wholespace.omp.json" |�
 
 当然，还可以在终端外观设置中设置背景和透明度。
 
-# 4. 参考资料
+# 4. Vsocde中的乱码配置
+使用的时候发现在VScode中会乱码，安装下面步骤更改终端字体即可：
+1. 打开设置
+2. 搜索`Integrated:Font Family` 
+3. 将字体修改为上面设置的字体
+
+# 5. 参考资料
 <https://mp.weixin.qq.com/s/KWlN5s_rdLn8oO_iL2vbgg>
 
 
