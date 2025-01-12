@@ -290,7 +290,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: Bug producer and Environmental Engineer
+    description: 总有人间一两风，填我十万八千梦！
     button:
       enable: true
       icon: fab fa-github
@@ -298,7 +298,7 @@ aside:
       link: https://github.com/liangbm3
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 2024/10/10本网站建立，2025/1/11从Netlify迁移到GitHub Pages
   card_recent_post:
     enable: true
     # If set 0 will show all

@@ -12,7 +12,7 @@ comments: true
 + 站名：liangbm3's blog
 + 地址：https://liangbm3.top/
 + 图片：https://liangbm3.top/img/lbm.jpg
-+ 简介：Bug 制造者和环境工程师
++ 简介：总有人间一两风，填我十万八千梦！
 
 添加本站后，在本页或邮箱留言，格式如下
 ```yaml
